@@ -36,7 +36,15 @@ return require('packer').startup(function(use)
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
     'neovim/nvim-lspconfig',
+    'jose-elias-alvarez/null-ls.nvim',
+    'jay-babu/mason-null-ls.nvim',
   }
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use 'rafamadriz/friendly-snippets'
   use 'akinsho/toggleterm.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
